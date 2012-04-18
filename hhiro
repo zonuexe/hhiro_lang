@@ -1,0 +1,18 @@
+#!/usr/bin/env ruby
+# -*- coding: utf-8 -*-
+
+require 'r-fxxk'
+
+class Nyaruko < BrainFuck
+  nxt 'えっち'
+  inc 'もみ'
+  prv '//'
+  dec '導線'
+  opn 'ひろ'
+  cls 'ヤリキレナイ'
+  put '火暴'
+  get '木亥'
+end
+
+puts Nyaruko.new.fuck(ARGF.read)
+
