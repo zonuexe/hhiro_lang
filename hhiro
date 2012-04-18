@@ -3,7 +3,7 @@
 
 require 'r-fxxk'
 
-class Nyaruko < BrainFuck
+class HHiro < BrainFuck
   nxt 'えっち'
   inc 'もみ'
   prv '//'
@@ -14,5 +14,5 @@ class Nyaruko < BrainFuck
   get '木亥'
 end
 
-puts Nyaruko.new.fuck(ARGF.read)
+puts HHiro.new.fuck(ARGF.read)
 
